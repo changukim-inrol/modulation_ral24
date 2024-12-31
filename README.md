@@ -18,7 +18,5 @@ https://drive.google.com/drive/folders/1x1kj_N335QLfyz9zf6Amw_eYTLHYVXTY?usp=dri
 | 6  | Bucket tip velocity - orientation ($\dot{q_b}_{\psi}$) | [rad/s] |
 | 7-8  | Excavation force ($f_{b_x}$, $f_{b_y}$)| [N] |
 | 9  | Past trajectory area ($a_{q}$) | [m²] |
-
-
-
-
+| 10-11 | Difference of excavation force ($\Delta f_{b_x}$, $\Delta f_{b_y}$)| [N] |
+* $\Delta f_{b_k} := {f_b}_{k+1} -{f_b}_k$, k is the discrete-time index.
